@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100px;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+.center{
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: black;
+}
+.image{
+    position: realtive;
+    overflow: hidden;
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+img{
+    height: 100%;
+    object-fit: cover;
+}
+#one{
+    width: 70%;
+}
